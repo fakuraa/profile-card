@@ -11,6 +11,11 @@
 		366185EF2C017F6F009F675A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366185EE2C017F6F009F675A /* ContentView.swift */; };
 		366185F12C017F70009F675A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366185F02C017F70009F675A /* Assets.xcassets */; };
 		366185F42C017F70009F675A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366185F32C017F70009F675A /* Preview Assets.xcassets */; };
+		366185FB2C01DD92009F675A /* ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366185FA2C01DD92009F675A /* ext.swift */; };
+		36BE11982C01E1CA001B4B78 /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36BE11942C01E1C9001B4B78 /* DancingScript-Medium.ttf */; };
+		36BE11992C01E1CA001B4B78 /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36BE11952C01E1C9001B4B78 /* DancingScript-Regular.ttf */; };
+		36BE119A2C01E1CA001B4B78 /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36BE11962C01E1CA001B4B78 /* DancingScript-Bold.ttf */; };
+		36BE119B2C01E1CA001B4B78 /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36BE11972C01E1CA001B4B78 /* DancingScript-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		366185EE2C017F6F009F675A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		366185F02C017F70009F675A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		366185F32C017F70009F675A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		366185FA2C01DD92009F675A /* ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ext.swift; sourceTree = "<group>"; };
+		36BE11932C01E0C3001B4B78 /* Fadil-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Fadil-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
+		36BE11942C01E1C9001B4B78 /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Medium.ttf"; sourceTree = "<group>"; };
+		36BE11952C01E1C9001B4B78 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Regular.ttf"; sourceTree = "<group>"; };
+		36BE11962C01E1CA001B4B78 /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Bold.ttf"; sourceTree = "<group>"; };
+		36BE11972C01E1CA001B4B78 /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +62,13 @@
 		366185EB2C017F6F009F675A /* Fadil Card */ = {
 			isa = PBXGroup;
 			children = (
+				36BE11932C01E0C3001B4B78 /* Fadil-Card-Info.plist */,
+				36BE118E2C01DFD0001B4B78 /* fonts */,
 				366185EC2C017F6F009F675A /* Fadil_CardApp.swift */,
 				366185EE2C017F6F009F675A /* ContentView.swift */,
 				366185F02C017F70009F675A /* Assets.xcassets */,
 				366185F22C017F70009F675A /* Preview Content */,
+				366185FA2C01DD92009F675A /* ext.swift */,
 			);
 			path = "Fadil Card";
 			sourceTree = "<group>";
@@ -65,6 +79,17 @@
 				366185F32C017F70009F675A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36BE118E2C01DFD0001B4B78 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				36BE11962C01E1CA001B4B78 /* DancingScript-Bold.ttf */,
+				36BE11942C01E1C9001B4B78 /* DancingScript-Medium.ttf */,
+				36BE11952C01E1C9001B4B78 /* DancingScript-Regular.ttf */,
+				36BE11972C01E1CA001B4B78 /* DancingScript-SemiBold.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +150,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36BE119A2C01E1CA001B4B78 /* DancingScript-Bold.ttf in Resources */,
+				36BE11982C01E1CA001B4B78 /* DancingScript-Medium.ttf in Resources */,
 				366185F42C017F70009F675A /* Preview Assets.xcassets in Resources */,
+				36BE11992C01E1CA001B4B78 /* DancingScript-Regular.ttf in Resources */,
+				36BE119B2C01E1CA001B4B78 /* DancingScript-SemiBold.ttf in Resources */,
 				366185F12C017F70009F675A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				366185EF2C017F6F009F675A /* ContentView.swift in Sources */,
+				366185FB2C01DD92009F675A /* ext.swift in Sources */,
 				366185ED2C017F6F009F675A /* Fadil_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,12 +299,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fadil Card/Preview Content\"";
-				DEVELOPMENT_TEAM = 4L3SFXH943;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fadil-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,6 +318,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Fakura.Fadil-Card";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +330,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fadil Card/Preview Content\"";
-				DEVELOPMENT_TEAM = 4L3SFXH943;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fadil-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +349,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Fakura.Fadil-Card";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
